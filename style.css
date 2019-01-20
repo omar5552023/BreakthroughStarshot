@@ -135,6 +135,13 @@ a:hover, a:active {
 
 .header-bar-text p {
     margin: 0;
+    
+}
+.personalDiv{
+    height: 8rem;
+}
+.personalImg{
+    height: 100%;
 }
 
 /*
@@ -1164,6 +1171,11 @@ ul.tabs-nav .tab-nav.active {
 }
 
 @media screen and (max-width: 576px){
+    #bannarImg{
+        width: auto;
+        height: 375px;
+    }
+
     #containerImg{
         padding:  0px;
     }
